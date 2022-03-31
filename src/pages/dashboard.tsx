@@ -1,10 +1,10 @@
 
 import * as React from 'react';
-import { DescriptionContent } from './components/description_content';
+import DescriptionContent from "./components/description_content"
 import {database} from '../../services/firebase';
 import { useState, useEffect } from 'react';
 import { push, ref, onValue, remove, update, child} from "firebase/database";
-import {Pessoa} from './components/pessoa'
+import Pessoa from './components/pessoa'
 
 interface Props{
 
