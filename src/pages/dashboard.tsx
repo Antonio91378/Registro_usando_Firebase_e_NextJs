@@ -18,7 +18,7 @@ type Pessoas = {
     descricao:string,
 };
 
-export const Dashboard:React.FC<Props> = (Props) => {
+const Dashboard:React.FC<Props> = (Props) => {
 
     const [nome, setNome] = useState('')
     const [cpf, setCpf] = useState('')
@@ -183,3 +183,5 @@ export const Dashboard:React.FC<Props> = (Props) => {
         </div>
     );
 }; 
+
+export default Dashboard

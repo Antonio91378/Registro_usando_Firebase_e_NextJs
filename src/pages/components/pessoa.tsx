@@ -1,7 +1,5 @@
 
-import { Dashboard } from '../dashboard';
 import * as React from 'react';
-import { NOMEM } from 'dns';
 interface Props{
     nome:string,
     cpf:string,
@@ -10,7 +8,7 @@ interface Props{
     funcao: any,
     editar:any
 };
-export const Pessoa:React.FC<Props>  = (Props) => {
+const Pessoa:React.FC<Props>  = (Props) => {
 
 
 
@@ -38,3 +36,5 @@ export const Pessoa:React.FC<Props>  = (Props) => {
         </div>
     );
 };
+
+export default Pessoa

@@ -7,7 +7,7 @@ interface contentProps{
     event:any;
     value:string;
 };
-export const DescriptionContent:React.FC<contentProps> = (contentProps) => {
+const DescriptionContent:React.FC<contentProps> = (contentProps) => {
     return (
         <div>
             <div><label htmlFor="">{contentProps.name}</label></div>
@@ -15,3 +15,5 @@ export const DescriptionContent:React.FC<contentProps> = (contentProps) => {
         </div>
     );
 };
+
+export default DescriptionContent
